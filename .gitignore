@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Database
+backend/invento.db
+
+# Node
+node_modules/
+dist/
+.env.local
+
+# VS Code
+.vscode/
+
+# System
+.DS_Store
