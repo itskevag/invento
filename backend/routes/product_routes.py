@@ -1,7 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from sqlalchemy import func
-
 from database import get_db
 from models import Product
 from schemas import ProductCreate, ProductUpdate, ProductResponse, DashboardStats
