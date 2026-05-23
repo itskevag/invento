@@ -6,7 +6,7 @@ import {
   getStockBadgeClass,
   getStockStatus,
 } from "../utils/formatters";
-import "./DashboardPages.css";
+
 
 export default function DashboardPage() {
   const [stats, setStats] = useState<DashboardStats | null>(null);

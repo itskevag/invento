@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { api } from "../api/api";
 import type { StockAdjustment } from "../types";
 import { formatAdjustmentType, formatDate } from "../utils/formatters";
-import "./DashboardPages.css";
+
 
 export default function StockHistoryPage() {
   const [history, setHistory] = useState<StockAdjustment[]>([]);

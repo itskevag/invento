@@ -1,0 +1,83 @@
+.input,
+.select,
+.textarea {
+  width: 100%;
+  border: 1px solid #d9e3f2;
+  border-radius: 12px;
+  padding: 11px 12px;
+  background: white;
+  color: #172033;
+  outline: none;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+  border-color: #0b6bff;
+  box-shadow: 0 0 0 3px rgba(11, 107, 255, 0.12);
+}
+
+.textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+/* Remove number input increase/decrease arrows */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  appearance: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.form-grid label,
+.form-full label,
+.adjustment-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  color: #334155;
+  font-weight: 800;
+}
+
+.form-full {
+  margin-top: 16px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 22px;
+  flex-wrap: wrap;
+}
+
+.adjustment-form {
+  display: grid;
+  gap: 14px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.toolbar .input {
+  max-width: 320px;
+}
+
+.toolbar .select {
+  max-width: 230px;
+}

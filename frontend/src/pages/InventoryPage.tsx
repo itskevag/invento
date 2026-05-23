@@ -8,7 +8,7 @@ import {
   getStockBadgeClass,
   getStockStatus,
 } from "../utils/formatters";
-import "./DashboardPages.css";
+
 
 export default function InventoryPage() {
   const navigate = useNavigate();

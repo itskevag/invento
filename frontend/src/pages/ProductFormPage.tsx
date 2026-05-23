@@ -11,7 +11,7 @@ import {
   getStockBadgeClass,
   getStockStatus,
 } from "../utils/formatters";
-import "./DashboardPages.css";
+
 
 const emptyForm: ProductFormData = {
   name: "",
